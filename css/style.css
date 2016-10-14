@@ -95,7 +95,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, a, img, ul, li {
     .part-two .k-game-pages .circle3 {
       background: url(../img/circle3.png); }
   .part-two .k-game-main {
-    padding: 0 25px;
+    padding: 0 30px;
     max-height: 600px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -112,9 +112,9 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, a, img, ul, li {
       position: absolute;
       background: url(../img/right.png) no-repeat;
       width: 100px;
-      height: 70%;
-      right: 45px;
-      bottom: 12px; }
+      height: 305px;
+      right: 47px;
+      bottom: 0px; }
     .part-two .k-game-main > div {
       -webkit-box-flex: 1;
       -webkit-flex: 1 1 auto;
@@ -136,7 +136,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, a, img, ul, li {
       margin-left: 20px; }
   .part-two .k-game-answer {
     min-height: 90px;
-    width: 545px;
+    width: 539px;
     margin: 10px 0;
     display: -webkit-box;
     display: -webkit-flex;
@@ -152,10 +152,13 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, a, img, ul, li {
     position: relative; }
     .part-two .k-game-answer > div {
       padding: 5px 30px 5px 75px; }
+      .part-two .k-game-answer > div label {
+        font-size: 18px;
+        line-height: 17px; }
     .part-two .k-game-answer [type="radio"]:not(:checked), .part-two .k-game-answer [type="radio"]:checked {
       position: absolute;
       left: -9999px; }
-    .part-two .k-game-answer [type="radio"]:not(:checked) + label, .part-two .k-game-answer [type="radio"]:checked + label {
+    .part-two .k-game-answer [type="radio"]:not(:checked) + label {
       cursor: pointer; }
     .part-two .k-game-answer [type="radio"]:not(:checked) + label:before, .part-two .k-game-answer [type="radio"]:checked + label:before {
       content: "";
@@ -171,21 +174,18 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, a, img, ul, li {
       top: 33%;
       left: 27px;
       font-size: 35px;
-      line-height: 0.8;
-      color: white;
+      line-height: 30px;
+      color: #fff;
       -webkit-transition: all 0.2s;
               transition: all 0.2s; }
     .part-two .k-game-answer [type="radio"]:not(:checked) + label:after {
-      opacity: 0;
-      -webkit-transform: scale(0);
-          -ms-transform: scale(0);
-              transform: scale(0); }
+      opacity: 0; }
 
 .k-game-footer {
   min-height: 140px;
   background: url(../img/footer.png) no-repeat;
-  background-size: cover;
+  background-size: contain;
   max-width: 100%;
-  width: 693px;
+  width: 685px;
   height: 15%;
-  margin: 0 25px; }
+  margin: 0 30px; }
